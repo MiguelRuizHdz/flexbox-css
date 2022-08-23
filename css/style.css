@@ -111,3 +111,19 @@ h1, h2 {
 
     align-items: flex-end;
 }
+
+/** 7 **/
+.d-flex-7 {
+    display: flex;
+    height: 800px;
+
+    /* Valores iniciales */
+    /* flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;  */
+    
+    flex-direction: column;
+    justify-content: flex-start; /* horizontalmente cambia a vertical */
+    align-items: flex-end; /* verticalmente cambia a horizontal */
+    
+}
