@@ -165,7 +165,6 @@ h1, h2 {
     flex-basis: 33.3%;
 }
 
-
 /** 11 **/
 .d-flex-11 {
     display: flex;
@@ -178,4 +177,18 @@ h1, h2 {
 .d-flex-11 .box:nth-child(2),
 .d-flex-11 .box:nth-child(3) {
     flex-grow: 1;
+}
+
+/** 12 **/
+.d-flex-12 {
+    display: flex;
+}
+
+.d-flex-12 .box {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.d-flex-12 .box:nth-child(3) {
+    flex-shrink: 2;
 }
