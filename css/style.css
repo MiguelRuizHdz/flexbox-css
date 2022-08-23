@@ -127,3 +127,16 @@ h1, h2 {
     align-items: flex-end; /* verticalmente cambia a horizontal */
     
 }
+
+/** 8 **/
+.d-flex-8 {
+    display: flex;
+}
+
+/* Flex-basis es una propiedad que se aplica en el hijo */
+.d-flex-8 .box{
+    flex-basis: 33.3%;
+    flex-basis: 200px; /* valor inicial, y cuando tiene más contenido comienza a crecer*/
+}
+
+
