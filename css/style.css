@@ -134,9 +134,23 @@ h1, h2 {
 }
 
 /* Flex-basis es una propiedad que se aplica en el hijo */
-.d-flex-8 .box{
+.d-flex-8 .box {
     flex-basis: 33.3%;
     flex-basis: 200px; /* valor inicial, y cuando tiene más contenido comienza a crecer*/
 }
 
+/** 9 **/
+.d-flex-9 {    
+    display: flex;
+    /* gap: 2rem; */
+    justify-content: space-between;
+}
 
+.d-flex-9 .box:nth-child(1) {
+    flex-basis: calc(50% - 1rem);
+}
+
+.d-flex-9 .box:nth-child(2),
+.d-flex-9 .box:nth-child(3) {
+    flex-basis: calc(25% - 1rem);
+}
